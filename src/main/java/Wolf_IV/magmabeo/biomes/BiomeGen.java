@@ -44,8 +44,9 @@ public class BiomeGen extends BiomeGenBase{
 	  
 	 }
 	  public void decorate(World world, Random rand, int par1, int par2) {
-		addStructure("magmas1", rand, world, par1, par2, 60, 120, 5);
-		addStructure("crafting", rand, world, par1, par2, 60, 120, 5);
+		addStructure("magmas1", rand, world, par1, par2, 60, 90, 5);
+		addStructure("crafting", rand, world, par1, par2, 60, 90, 5);
+		addStructure("dungeon", rand, world, par1, par2, 60, 90, 1);
 		WorldGenMod.addOre(Blocks.netherrack, Blocks.stone, rand, world, par1, par2, 15, 130, 16, 48, 5);
 		WorldGenMod.addOre(magmabeo.Titan_Ore, Blocks.netherrack, rand, world, par1, par2, 10, 130, 3, 11, 8);
 	  }
