@@ -63,8 +63,8 @@ private void GenerateOverWorld(World world, int par1, int par2, Random rand) {
 
 private void GenerateNether(World world, int par1, int par2, Random rand) {
 	addOre(magmabeo.Beo_Ore, Blocks.netherrack, rand, world, par1, par2, 0, 120, 1, 2, 1);
-	addOre(magmabeo.Ardium_Ore, Blocks.netherrack, rand, world, par1, par2, 0, 120, 1, 2, 1);
-	addOre(magmabeo.Titan_Ore, Blocks.netherrack, rand, world, par1, par2, 10, 130, 3, 11, 4);
+	addOre(magmabeo.Titan_Ore, Blocks.netherrack, rand, world, par1, par2, 0, 120, 1, 2, 1);
+	addOre(magmabeo.Ardium_Ore, Blocks.netherrack, rand, world, par1, par2, 10, 130, 3, 11, 4);
 	
 	
 }//nether

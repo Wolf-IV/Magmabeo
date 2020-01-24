@@ -11,7 +11,7 @@ public class Ardium_Ore extends Block{
     this.setHardness(80.0F);
     this.setResistance(26.0F);
     this.setLightLevel(10.0F);
-    this.setLightOpacity(0);
+    this.setLightOpacity(16);
 
     
     }

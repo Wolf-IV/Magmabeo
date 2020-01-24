@@ -51,6 +51,7 @@ public class magmabeo {
 	public static Block Beo_Ore;
 	public static Block Ardium_Ore;
 	public static Block Titan_Ore;
+	public static Block Yittrium;
 	// Ores
 	// Item Ores
 	public static Item Titan_Fragment;
@@ -316,6 +317,12 @@ public class magmabeo {
 				.setTextureName("magmabeo:Key").setCreativeTab(magmabeoTab);
 		GameRegistry.registerItem(Key, Key.getUnlocalizedName().substring(5));
 		//Crafting Tools
+		
+		//Industrictible
+		Yittrium = new Yittrium().setBlockName("Yittrium").setBlockTextureName("magmabeo:Yit")
+				.setCreativeTab(magmabeoTab);
+		GameRegistry.registerBlock(Yittrium, Yittrium.getUnlocalizedName().substring(5));
+		//Industrictible
 		/**
 		 * SMELTING
 		 */
