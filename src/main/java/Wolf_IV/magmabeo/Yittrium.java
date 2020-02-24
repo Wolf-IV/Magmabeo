@@ -10,6 +10,7 @@ public Yittrium() {
     this.setHardness(30.0F);
     this.setResistance(26.0F);
     this.setLightOpacity(16);
+	this.setStepSound(soundTypeGravel);
 }
 	
 }
